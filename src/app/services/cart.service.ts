@@ -7,6 +7,7 @@ import { BehaviorSubject } from 'rxjs';
 export class CartService {
   public cartItemList: any = [];
   public productList = new BehaviorSubject<any>([]);
+  //objeto de la clase Behavior (es observable y observador al mismo tiempo) (observable and emmitter)
   public search = new BehaviorSubject<string>('');
 
   constructor() {}

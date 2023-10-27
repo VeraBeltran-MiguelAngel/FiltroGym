@@ -7,7 +7,7 @@ export class FilterPipe implements PipeTransform {
   /**
    * Funcion para filtar datos enviados desde un api arroja un array de tipo any
    * @param value  es el json que manda el api y lo guardamos en un array
-   * @param filterString es la palabra con la que vas a filtrar toda la informacion
+   * @param filterString es la palabra con la que vas a filtrar toda la informacion(la escribe el usuario)
    * @param propName para filtar por propiedad como titulo o categorias
    * @returns
    */
